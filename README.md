@@ -12,9 +12,9 @@ This repository contains categorized programming assignments for:
 
 ## Language Folders
 
-- [C Programming](./c-Programming)
-- [C++ Programming](./cpp-Programming)
-- [Java Programming](./java-programming)
+- [C Programming](./c-Programming/README.md)
+- [C++ Programming](./cpp-Programming/README.md)
+- [Java Programming](./java-programming/README.md)
 
 
 
