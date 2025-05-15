@@ -7,4 +7,15 @@ This repository contains categorized programming assignments for:
 
 🔹 Java Programming: Includes both Core Java (OOP, exception handling, multithreading, etc.) and Advanced Java (JSP, Servlets, JDBC, networking, GUI, and more).
 
+
+
+
+## Language Folders
+
+- [C Programming](./c-Programming)
+- [C++ Programming](./cpp-Programming)
+- [Java Programming](./java-programming)
+
+
+
 Each language has its own folder with relevant programs and a detailed README file.
