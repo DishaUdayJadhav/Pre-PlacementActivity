@@ -1,17 +1,17 @@
 import java.net.*;
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
-class AdditionClient 
+class AdditionClient
 {
-    public static void main(String[] args) throws Exception
+    public static void main(String A[]) throws Exception
     {
-       
-      
-        Socket sobj = new Socket("localhost",2100);
 
-        DataInputStream diobj = new DataInputStream(sobj.getInputStream()); //ear
-        DataOutputStream doobj = new DataOutputStream(sobj.getOutputStream());  //mouth
 
-    }    
+        Socket sobj = new Socket("localhost", 2100);
+
+        DataInputStream diobj = new DataInputStream(sobj.getInputStream()); // ear
+        DataOutputStream doobj = new DataOutputStream(sobj.getOutputStream());  // mouth
+
+    }
 }

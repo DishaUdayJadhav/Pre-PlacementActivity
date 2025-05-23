@@ -1,30 +1,30 @@
 import java.net.*;
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 class AdditionServerXX
 {
-    public static void main(String[] args) throws Exception
+    public static void main(String A[]) throws Exception
     {
         ServerSocket ssobj = new ServerSocket(2100);
-        System.out.println("Server is waiting at port : 2100");
+        System.out.println("Server is waiting at port 2100");
         Socket sobj = ssobj.accept();
-        System.out.println("Client request arrived and connected Successfully");
-        DataInputStream diobj = new DataInputStream(sobj.getInputStream()); //ear
-        DataOutputStream doobj = new DataOutputStream(sobj.getOutputStream());  //mouth
+        System.out.println("Client request arrives and connected succesfully");
+        DataInputStream diobj = new DataInputStream(sobj.getInputStream()); // ear
+        DataOutputStream doobj = new DataOutputStream(sobj.getOutputStream()); // mouth
 
 
-    
 
 
-        int value1 = 0,value2 = 0,sum = 0;
+
+        int Value1 = 0, Value2 = 0, Sum = 0;
+
+        Value1 = diobj.readInt();
+        Value2 = diobj.readInt();
+        Sum = Value1 + Value2;
+        doobj.writeInt(Sum);
 
 
-        value1=diobj.readInt();
-        value2=diobj.readInt();
-        sum = value1 + value2;
-        doobj.writeInt(sum);
-
-         System.out.println("End of Server Application");
-    }    
+        System.out.println("End of server application");
+    }
 }

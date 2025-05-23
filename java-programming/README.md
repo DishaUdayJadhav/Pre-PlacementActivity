@@ -10,6 +10,8 @@ Variable types, primitive data types, type conversion
 
 *Classes and objects
 
+*Object Class Methods (Codes)
+
 *Constructors and types of constructors
 
 *Destructors and garbage collection
@@ -42,9 +44,9 @@ Variable types, primitive data types, type conversion
 
 *Exception Handling
 
-try, catch, finally
+*try, catch, finally
 
-throw and throws
+*throw and throws
 
 *Wrapper Classes
 Autoboxing and unboxing examples
